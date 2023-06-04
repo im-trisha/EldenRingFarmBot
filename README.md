@@ -9,7 +9,8 @@ This is a python script that will allow you to automatically farm runes on Elden
 * Said sword, must one shot the albinaurics, otherwise the killing cycle will not be able to start over again
 
 ## How to use - Simple user
-1. Download the executable from [here](https://github.com/GiuseppeFn/EldenRingFarmBot/releases/latest)
+1. Download the executable zip from [here](https://github.com/GiuseppeFn/EldenRingFarmBot/releases/latest/download/EldenRingFarmBot.zip)
+2. Unzip it by right-clicking it->Extract
 2. You must open the settings.yaml file and edit the grace_timeout value, use your phone as a stopwatch to know what time to put here, and add 2 to 3 seconds. Then, customize the other settings, if you dont want to, just put everything back to default controls on Elden Ring and set the ability key to '3'
 3. Now you can just run the program by double clicking the executable
 4. You must then teleport to the site of grace and set the right weapons and talismans, and when you're ready, press the ```start_key``` that you put in the settings (By default the p key)
@@ -18,7 +19,7 @@ This is a python script that will allow you to automatically farm runes on Elden
 You're finally ready to go! Just leave it overnight or while you work.
 
 ## How to use - Programmer
-If you want to help me in some way, or just curious about the code, you must:
+If you want to help me in some way, or just curious about the code, you must run the following:
 ```git clone https://github.com/GiuseppeFn/EldenRingFarmBot.git
 cd EldenRingFarmBot
 python -m venv ./
@@ -26,7 +27,10 @@ python -m venv ./
 Then, depending on your os:
 * Windows: ```.\Scripts\Activate.ps1```
 * Unix: ```source ./Scripts/activate```
-Finally, you just need to ```pip install -r requirements.txt```
+Finally, you just need to run ```pip install -r requirements.txt```
+To build it as an executable, you then just need to run ```pyinstaller --onefile main.py -n EldenRingFarmBot```
+And then, if you want to make it as a release: 
+```tar -a -c -f EldenRingFarmBot.zip ./dist/EldenRingFarmBot.exe ./settings.yaml```
 
 
 ## Notes
