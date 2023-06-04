@@ -14,7 +14,7 @@ I know that this program will probably and mostly be used by non programmers, so
 2. Download [this script](https://github.com/GiuseppeFn/EldenRingFarmBot/archive/refs/heads/main.zip)
 3. Unzip it (Right click on the file, then click 'Extract')
 4. Open the folder where there is the main file
-5. You must open the settings.yaml file and edit the grace_timeout value, use your phone as a stopwatch to know what time to put here, and add 2 to 3 seconds customize the other settings, if you dont want to, just put everything back to default controls on Elden Ring and set the ability key to '3'
+5. You must open the settings.yaml file and edit the grace_timeout value, use your phone as a stopwatch to know what time to put here, and add 2 to 3 seconds. Then, customize the other settings, if you dont want to, just put everything back to default controls on Elden Ring and set the ability key to '3'
 6. Right click on the folder and open it in the cmd/terminal
 8. ONE TIME SETUP (You should run it only the first time you run the script): ```pip3 install -r requirements.txt```
 8. Now, you can finally write in the terminal: ```python3 -B main.py```, now the script is started.
