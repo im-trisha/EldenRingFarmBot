@@ -1,0 +1,14 @@
+# venv
+Lib/
+Scripts/
+Include/
+pyvenv.cfg
+
+# __pycache__
+__pycache__/
+*.pyc
+
+# pyinstaller
+build/
+dist/
+*.spec

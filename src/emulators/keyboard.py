@@ -33,7 +33,3 @@ class Keyboard(Emulator):
     @staticmethod
     def wait(key: str) -> None:
         kb.wait(key)
-    
-    @staticmethod
-    def is_pressed(key: str) -> None:
-        kb.is_pressed(key)

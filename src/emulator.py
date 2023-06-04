@@ -1,8 +1,10 @@
 from abc import ABC, abstractmethod
+from ctypes import windll
+windll.kernel32.SetDllDirectoryW(None)
 
 
 WALK_TIMEOUTS = [3, 0.5, 2.1, 3]
-class Emulator(ABC):    
+class Emulator(ABC):
     @abstractmethod
     def walk(self, x: int, y: int, interval: float) -> None:
         ...

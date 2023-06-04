@@ -1,5 +1,4 @@
 grace_timeout: 7
 start_key: p
 skill_key: '3'
-quit_key: k
-joystick: true
+joystick: false
