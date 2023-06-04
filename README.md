@@ -33,3 +33,5 @@ There are some notes thought:
 * You can put ```joystick: true``` and the program will emulate a controller instead of your keyboard. Not sure why you would even want to do that but you can, i didn't test it thought
 * I will work on making the script a simple executable, so every user will be able to run it without any issue, as soon as i have time. I'm busy most of the time and i decided to make this code public just because maybe it will help someone else.
 * ^ Thus being said, please feel free to open an issue in the ```Issues tab``` demanding for new features or just alerting me of an unknown issue.
+
+# YOU MUST NOT PAY THIS SOFTWARE. THIS SOFTWARE IS FREE OF CHARGE. IF YOU DID, YOU HAVE BEEN SCAMMED.
