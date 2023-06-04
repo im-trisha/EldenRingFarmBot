@@ -30,7 +30,7 @@ Then, depending on your os:
 Finally, you just need to run ```pip install -r requirements.txt```
 To build it as an executable, you then just need to run ```pyinstaller --onefile main.py -n EldenRingFarmBot```
 And then, if you want to make it as a release: 
-```tar -a -c -f EldenRingFarmBot.zip ./dist/EldenRingFarmBot.exe ./settings.yaml```
+```tar -a -c -f ./dist/EldenRingFarmBot.zip ./dist/EldenRingFarmBot.exe ./settings.yaml```
 
 
 ## Notes
