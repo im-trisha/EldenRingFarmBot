@@ -20,7 +20,8 @@ You're finally ready to go! Just leave it overnight or while you work.
 
 ## How to use - Programmer
 If you want to help me in some way, or just curious about the code, you must run the following:
-```git clone https://github.com/GiuseppeFn/EldenRingFarmBot.git
+```
+git clone https://github.com/GiuseppeFn/EldenRingFarmBot.git
 cd EldenRingFarmBot
 python -m venv ./
 ```
