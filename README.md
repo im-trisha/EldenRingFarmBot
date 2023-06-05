@@ -6,12 +6,13 @@ This is a python script that will allow you to automatically farm runes on Elden
 ## What will your Elden Ring character need?
 * The ["Sacred Relic Sword"](https://eldenring.wiki.fextralife.com/Sacred+Relic+Sword)
 * Having "Palace Approach Ledge-Road" site of grace, and teleporting there before starting the bot
-* Said sword, must one shot the albinaurics, otherwise the killing cycle will not be able to start over again
+* Said sword, must one shot the albinaurics, otherwise the killing cycle will not be able to start over again (Thus, you can try, but dont rely on a sword that doesn't oneshot them)
 
 ## How to use - Simple user
+I made a very simple video about how you can use this script [on youtube](https://youtu.be/iAXInZx7Q4k), but if you want, you can do the following:
 1. Download the executable zip from [here](https://github.com/GiuseppeFn/EldenRingFarmBot/releases/latest/download/EldenRingFarmBot.zip)
 2. Unzip it by right-clicking it->Extract
-2. You must open the settings.yaml file and edit the grace_timeout value, use your phone as a stopwatch to know what time to put here, and add 2 to 3 seconds. Then, customize the other settings, if you dont want to, just put everything back to default controls on Elden Ring and set the ability key to '3'
+2. You must open the settings.yaml file and edit the grace_timeout value, use your phone as a stopwatch to know how much time is needed to fast travel to the site of grace, and add 2 to 3 seconds to it. Then, customize the other settings, if you dont want to, just put everything back to default controls on Elden Ring and set the ability key to '3'
 3. Now you can just run the program by double clicking the executable
 4. You must then teleport to the site of grace and set the right weapons and talismans, and when you're ready, press the ```start_key``` that you put in the settings (By default the p key)
 - Bonus: I **HIGLY** suggest you to put the graphics to the minimum, so there will be no stuttering and so no sync error
@@ -28,11 +29,10 @@ python -m venv ./
 Then, depending on your os:
 * Windows: ```.\Scripts\Activate.ps1```
 * Unix: ```source ./Scripts/activate```
-Finally, you just need to run ```pip install -r requirements.txt```
-To build it as an executable, you then just need to run ```pyinstaller --onefile main.py -n EldenRingFarmBot```
-And then, if you want to make it as a release: 
-```tar -a -c -f ./dist/EldenRingFarmBot.zip ./dist/EldenRingFarmBot.exe ./settings.yaml```
 
+Finally, you just need to run ```pip install -r requirements.txt```
+
+To build it as an executable, you then just need to run ```pyinstaller --onefile main.py -n EldenRingFarmBot```
 
 ## Notes
 There are some notes thought:
