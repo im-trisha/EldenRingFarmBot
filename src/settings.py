@@ -23,9 +23,9 @@ class Settings:
         )
     
     def __repr__(self) -> str:
-        return f'Settings(start_key: {self.start_key}, skill_key: {self.skill_key}, joystick: {self.joystick}, grace_timeout: {self.grace_timeout})'
+        return f'start_key: {self.start_key}\n skill_key: {self.skill_key}\n joystick: {self.joystick}\n grace_timeout: {self.grace_timeout})'
 
-DEFAULT = Settings(10, 'p', 3, False)
+DEFAULT = Settings(10, 'p', '3', False)
 
 def get_settings(path: str) -> Settings:
     try:

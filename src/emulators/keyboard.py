@@ -20,7 +20,8 @@ class Keyboard(Emulator):
         self.press([X_WALKS[x], Y_WALKS[y]], interval)
 
     def ability(self, key: str) -> None:
-        self.press(key, 0.2, 4)
+        # Stringify key because if it is a number like 3 and not '3', it wouldn't work
+        self.press(str(key), 0.2, 4)
         
     def back_to_grace(self, timeout: float):
         self.press('g', 0, 0.5)
