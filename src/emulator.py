@@ -3,7 +3,7 @@ from ctypes import windll
 windll.kernel32.SetDllDirectoryW(None)
 
 
-WALK_TIMEOUTS = [3, 0.5, 2.1, 3]
+WALK_TIMEOUTS = [3, 0.5, 2.3, 3]
 class Emulator(ABC):
     @abstractmethod
     def walk(self, x: int, y: int, interval: float) -> None:
