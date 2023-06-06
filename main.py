@@ -45,4 +45,7 @@ def main() -> None:
     Keyboard.wait('space')
 
 if __name__ == '__main__':
-    main()
+    try:
+        main()
+    except Exception as e:
+        logging.critical("There has been an error!! Please report it immediately on https://github.com/GiuseppeFn/EldenRingFarmBot", exc_info=e, stack_info=True)

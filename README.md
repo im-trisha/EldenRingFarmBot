@@ -7,6 +7,7 @@ This is a python script that will allow you to automatically farm runes on Elden
 * The ["Sacred Relic Sword"](https://eldenring.wiki.fextralife.com/Sacred+Relic+Sword)
 * Having "Palace Approach Ledge-Road" site of grace, and teleporting there before starting the bot
 * Said sword, must one shot the albinaurics, otherwise the killing cycle will not be able to start over again (Thus, you can try, but dont rely on a sword that doesn't oneshot them)
+**PLEASE: I WANT YOU TO REALLY LET THIS SINK IN. IF THE SWORD DOESN'T ONESHOT THE ALBINAURICS THIS WONT WORK AT THE MOMENT.**
 
 ## How to use - Simple user
 I made a very simple video about how you can use this script [on youtube](https://youtu.be/iAXInZx7Q4k), but if you want, you can do the following:
