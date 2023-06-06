@@ -41,11 +41,12 @@ def main() -> None:
     
     after_phrase = "I'm sorry Albus..." if runs_n != 0 else "That's great Albus!"
     logging.info(f'Program finished successfully and killed the albinaurics {runs_n} times! {after_phrase}')
-    logging.info('Waiting for space to be pressed...')
-    Keyboard.wait('space')
 
 if __name__ == '__main__':
     try:
         main()
     except Exception as e:
         logging.critical("There has been an error!! Please report it immediately on https://github.com/GiuseppeFn/EldenRingFarmBot", exc_info=e, stack_info=True)
+    finally:
+        logging.info('Waiting for space to be pressed...')
+        Keyboard.wait('space')
