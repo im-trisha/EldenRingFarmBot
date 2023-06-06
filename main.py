@@ -13,7 +13,7 @@ logging.basicConfig(
 
 def main() -> None:
     settings = get_settings('settings.yaml')
-    logging.info(f"Your settings are:\{settings}")
+    logging.info(f"Your settings are:\n{settings}")
     emulator: Emulator = Joystick() if settings.joystick else Keyboard()
 
     logging.info(f'Started {emulator.__class__.__name__} emulator.')

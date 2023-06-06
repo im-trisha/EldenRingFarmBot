@@ -23,7 +23,7 @@ class Settings:
         )
     
     def __repr__(self) -> str:
-        return f'start_key: {self.start_key}\n skill_key: {self.skill_key}\n joystick: {self.joystick}\n grace_timeout: {self.grace_timeout})'
+        return f'start_key: {self.start_key}\nskill_key: {self.skill_key}\njoystick: {self.joystick}\ngrace_timeout: {self.grace_timeout}'
 
 DEFAULT = Settings(10, 'p', '3', False)
 
